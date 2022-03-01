@@ -1,0 +1,12 @@
+spring:
+  rabbitmq:
+    host: localhost
+    username: guest
+    password: guest
+
+  jms:
+    servicebus:
+      connection-string: Endpoint=sb://guilherme-np.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=m9NpljOoBSHAwBESc6i+syH+AGhHu67TgB6/w/ODLbo=
+      topic-client-id: guilherme-subs
+      idle-timeout: 180000
+      pricing-tier: standard
