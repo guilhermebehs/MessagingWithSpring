@@ -11,3 +11,10 @@ spring:
       idle-timeout: 180000
       pricing-tier: standard
 
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: study
+
+
